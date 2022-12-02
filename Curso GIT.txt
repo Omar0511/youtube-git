@@ -1,0 +1,46 @@
+validar instalacion
+git --version
+
+configuracion de cuenta
+git config --global user.name "Omar Garcia"
+git config --global user.email za19012225@zapopan.tecmm.edu.mx
+git config --global user.ui true
+git config --list
+
+configurar visual studio code como editor de configuracion git
+git config --global core.editor "code --wait"
+git config --global -e
+
+saltos de linea en windows
+git config --global core.autocrlf true
+
+ver configuracion de las opciones de la configuracion en la terminal
+git config -h
+
+ver configuracion de las opciones de la configuracion en el navegador
+git help config
+
+ver la info del repositorio
+README
+
+para crearlo
+touch README.md
+
+para ignorar el node_modules, el cual no se sube a produccion
+touh .gitignore
+
+iniciar proyecto
+git init
+
+abrir visual studio code
+code .
+
+Agregar los cambios de un archivo
+git add archivo/directorio
+
+Agregar todos los cambios de todos los archivos
+git add .
+
+
+
+
