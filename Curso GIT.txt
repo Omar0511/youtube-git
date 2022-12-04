@@ -41,6 +41,11 @@ git add archivo/directorio
 Agregar todos los cambios de todos los archivos
 git add .
 
+Agregar cambios
+git commit
+git commit -s "Mensaje acerca del cambio"
+
+
 
 
 
